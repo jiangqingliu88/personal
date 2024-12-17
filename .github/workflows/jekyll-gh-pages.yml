@@ -34,7 +34,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}  # 明确指定 GITHUB_TOKEN
       - name: Set up npm
-        uses: npm/action-setup@v4
+        uses: npm/action-setup@v3
         with:
           version: 9
       - name: Install dependencies
